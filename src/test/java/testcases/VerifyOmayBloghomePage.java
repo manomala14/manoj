@@ -49,7 +49,7 @@ public class VerifyOmayBloghomePage {
 		
 		assertTrue(homepage.getCollegeImage().isDisplayed());
 		
-		//verify table contents
+		//verify table contents from user table
 		List<String> expectedTableData=new ArrayList<String>();
 		
 		expectedTableData=Arrays.asList("Kishore","22","Delhi","Manish","25","Pune","Praveen","29","Bangalore","Dheepthi","31","Mumbai");
