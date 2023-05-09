@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Taste case startedVerifyOmayBloghomePage]]>
+    </line>
+    <line>
+      <![CDATA[Taste case succeddVerifyOmayBloghomePage]]>
+    </line>
+    <line>
+      <![CDATA[Taste case startedVerifyCheckboxesAndRadioButtonsBehav]]>
+    </line>
+    <line>
+      <![CDATA[Taste case succeddVerifyCheckboxesAndRadioButtonsBehav]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-08T17:39:12 IST" name="Suite" finished-at="2023-05-08T17:39:26 IST" duration-ms="14337">
+    <groups>
+      <group name="e2e">
+        <method signature="VerifyCheckboxandRadioButton.VerifyCheckboxesAndRadioButtonsBehav()[pri:1, instance:testcases.VerifyCheckboxandRadioButton@47af7f3d]" name="VerifyCheckboxesAndRadioButtonsBehav" class="testcases.VerifyCheckboxandRadioButton"/>
+        <method signature="VerifyOmayBloghomePage.VerifyOmayBloghomePage()[pri:1, instance:testcases.VerifyOmayBloghomePage@20ce78ec]" name="VerifyOmayBloghomePage" class="testcases.VerifyOmayBloghomePage"/>
+      </group> <!-- e2e -->
+    </groups>
+    <test started-at="2023-05-08T17:39:12 IST" name="Test" finished-at="2023-05-08T17:39:26 IST" duration-ms="14337">
+      <class name="testcases.VerifyOmayBloghomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.VerifyOmayBloghomePage@20ce78ec]" started-at="2023-05-08T17:39:12 IST" name="setup" finished-at="2023-05-08T17:39:20 IST" duration-ms="7731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyOmayBloghomePage()[pri:1, instance:testcases.VerifyOmayBloghomePage@20ce78ec]" started-at="2023-05-08T17:39:20 IST" name="VerifyOmayBloghomePage" finished-at="2023-05-08T17:39:21 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Taste case startedVerifyOmayBloghomePage]]>
+            </line>
+            <line>
+              <![CDATA[Taste case succeddVerifyOmayBloghomePage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyOmayBloghomePage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.VerifyOmayBloghomePage@20ce78ec]" started-at="2023-05-08T17:39:21 IST" name="teardown" finished-at="2023-05-08T17:39:21 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyOmayBloghomePage status=SUCCESS method=VerifyOmayBloghomePage.VerifyOmayBloghomePage()[pri:1, instance:testcases.VerifyOmayBloghomePage@20ce78ec] output=Taste case startedVerifyOmayBloghomePage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.VerifyOmayBloghomePage -->
+      <class name="testcases.VerifyCheckboxandRadioButton">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.VerifyCheckboxandRadioButton@47af7f3d]" started-at="2023-05-08T17:39:21 IST" name="setup" finished-at="2023-05-08T17:39:26 IST" duration-ms="4922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCheckboxesAndRadioButtonsBehav()[pri:1, instance:testcases.VerifyCheckboxandRadioButton@47af7f3d]" started-at="2023-05-08T17:39:26 IST" name="VerifyCheckboxesAndRadioButtonsBehav" finished-at="2023-05-08T17:39:26 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Taste case startedVerifyCheckboxesAndRadioButtonsBehav]]>
+            </line>
+            <line>
+              <![CDATA[Taste case succeddVerifyCheckboxesAndRadioButtonsBehav]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckboxesAndRadioButtonsBehav -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.VerifyCheckboxandRadioButton@47af7f3d]" started-at="2023-05-08T17:39:26 IST" name="teardown" finished-at="2023-05-08T17:39:26 IST" duration-ms="323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCheckboxesAndRadioButtonsBehav status=SUCCESS method=VerifyCheckboxandRadioButton.VerifyCheckboxesAndRadioButtonsBehav()[pri:1, instance:testcases.VerifyCheckboxandRadioButton@47af7f3d] output=Taste case startedVerifyCheckboxesAndRadioButtonsBehav]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.VerifyCheckboxandRadioButton -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
