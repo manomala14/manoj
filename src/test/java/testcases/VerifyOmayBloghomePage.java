@@ -71,7 +71,7 @@ public class VerifyOmayBloghomePage {
 		{
 			Utility.getScreenshot(driver, result.getName());
 		}
-		//it will close all tab
+		//it will close all tab 
 		driver.quit();
 	}
 }
