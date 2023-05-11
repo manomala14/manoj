@@ -74,6 +74,5 @@ public class VerifyOmayBloghomePage {
 		//it will close all tab 
 		driver.quit();
 	}
-	pulic void test(){
-	}
+	
 }
